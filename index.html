@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random quote app</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 mx-auto my-4">
+                <h1 class="text-light text-center mb-5 display-4">Random Quote Machine</h1>
+                <div class="card bg-success text-white text-center my-5">
+                    <div class="card-body">
+                        <blockquote class="blockquote card-text">
+                            <i class="fa fa-quote-left text-light"></i>
+                            <p class="d-inline" id="quote"></p>
+                            <i class="fa fa-quote-right text-light"></i>
+                            <footer class="blockquote-footer text-right text-light mt-3" id="author"></footer>
+                        </blockquote>
+                    </div>
+                    <div class="card-footer bg-secondary d-flex justify-content-between">
+                        <button class="btn btn-info" id="get-quote">Get a quote!</button>
+                        <a id="tweet" target="_blank" title="Tweet this quote" class="btn btn-primary fa fa-twitter align-self-center"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
